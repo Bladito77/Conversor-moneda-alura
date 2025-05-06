@@ -68,7 +68,7 @@ public class Conversor {
 
     public static JSONObject obtenerTasasDesde(String monedaBase) {
         try {
-            String apiKey = "d3f9e6ffaacf353c5006b9b1";
+            String apiKey = "ojo colocar Key de cada quien";
             String urlStr = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + monedaBase;
             URL url = new URL(urlStr);
 
